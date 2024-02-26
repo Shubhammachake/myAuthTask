@@ -1,0 +1,146 @@
+body {
+  margin: 0px;
+  padding: 0px;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+nav button {
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(100, 100, 216);
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  nav {
+    width: 100%;
+  }
+  .home {
+    width: auto;
+  }
+  .Sign-div form {
+    width: auto;
+  }
+  .Sign-div form input {
+    width: 100%;
+  }
+  .Login-div form {
+    width: 60%;
+  }
+  .Sign-div button {
+    width: auto;
+  }
+  .btns {
+    width: auto;
+  }
+  .Sign-div {
+    width: auto;
+  }
+  .Login-div {
+    width: auto;
+  }
+  .main {
+    width: auto;
+  }
+  .Login-div form input {
+    width: auto;
+  }
+  .Login-div form button {
+    width: auto;
+  }
+}
+nav {
+  background-color: rgb(226, 116, 147);
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.Sign-div form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+.Sign-div form input {
+  width: 60%;
+  height: 40px;
+  border: none;
+  border-radius: 15px;
+  text-align: center;
+  background-color: rgb(169, 239, 239);
+}
+.Sign-div form button {
+  width: 100px;
+  height: 40px;
+  background-color: rgb(100, 100, 241);
+  border: none;
+  border-radius: 10px;
+  color: white;
+}
+.Login-div form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.Login-div form input {
+  width: 50%;
+  height: 40px;
+  border: none;
+  border-radius: 15px;
+  text-align: center;
+  background-color: rgb(169, 239, 239);
+}
+.Login-div form button {
+  width: 100px;
+  height: 40px;
+  background-color: rgb(100, 100, 241);
+  border: none;
+  border-radius: 10px;
+  color: white;
+}
+.home {
+  background-image: url("https://www.pushengage.com/wp-content/uploads/2022/02/Best-Website-Welcome-Message-Examples.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  padding-top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btns {
+  display: flex;
+  gap: 10px;
+}
+.Login-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+
+  height: 500px;
+  margin: auto;
+
+  border-radius: 20px;
+}
+
+.Sign-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+
+  height: 600px;
+  margin: auto;
+
+  border-radius: 20px;
+}
